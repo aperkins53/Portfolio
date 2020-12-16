@@ -1,0 +1,157 @@
+.intro {
+    background: url(./assets/code.jpg) no-repeat;
+    width: auto;
+    text-align: center;
+    height: 100vh;
+    background-size: cover;
+}
+
+.container-format{
+    display: table;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.vertical-align{
+    display: table-cell;
+    padding-top: 30vh;
+    padding-bottom: 20vh;
+    padding-right: 60px;
+}
+
+.vertical-align > h1 {
+    font-size: 6em;
+}
+
+.intro {
+    color: white;
+}
+
+#introButtons {
+    margin-top: 15px;
+}
+
+.about {
+    background-color: #003366;
+    width: auto;
+    color: white;
+}
+
+#aboutMe > h1 {
+    text-align: center;
+}
+
+#aboutMargin {
+    margin-top: 45px;
+    margin-left: 20px;
+}
+
+#headshotPlacement {
+    display: flex;
+    justify-content: center;
+}
+
+#headshot {
+    border: 3px solid black;
+    border-radius: 50%;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.skills > h1 {
+    margin-top: 20px;
+}
+
+#skillsMargin {
+    margin-bottom: 45px;
+}
+
+.skills {
+    text-align: center;
+}
+
+#skillBars {
+    width: 350px;
+}
+
+.projects{
+    background-color: #6A6969;
+    text-align: center;
+    width: auto;
+    padding-bottom: 25px;
+}
+
+.projectContainer > h1 {
+    color: white;
+    padding-top: 50px;
+    margin-bottom: 40px;
+}
+
+#projectMargins {
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 20px;
+}
+
+.contact {
+    background-color: #003366;
+    width: auto;
+    color: white;
+}
+
+#ContactTitle{
+    margin-bottom: 0;
+    margin-top: 25px;
+    top: 4rem;
+    text-align: center;
+}
+
+.contactContainer {
+    display: flex;
+    justify-content: center;
+}
+
+textarea{
+    width: 75vw;
+    height: 25vh;
+    border-bottom: 2px solid white;
+    background-color: #003366;
+    color: white;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+}
+
+input{
+    width: 75vw;
+    height: 5vh;
+    border-bottom: 2px solid white;
+    background-color: #003366;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    color: white;
+}
+
+.contactInput {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contactButton{
+    width: 75vw;
+    margin-bottom: 25px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+    height: 60px;
+}
+
+.footerText {
+    padding-top: 2.5vh;
+}
